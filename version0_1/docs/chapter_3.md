@@ -58,4 +58,4 @@ def add_url_rule(self, rule, endpoint, **options):
 
 此处`werkzeug.routing.Map`的功能暂且放下，后续补上相关文档。
 
-我们只要知道这里`self.url_map`调用了`Map.add`方法，`Flask`实例`app`的路由映射记录了`index`的路由。
+我们只要知道这里`self.url_map`调用了`Map.add`方法，使`Flask`实例`app`的路由映射记录了`index`视图函数的路由。
